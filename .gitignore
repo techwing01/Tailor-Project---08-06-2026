@@ -1,0 +1,43 @@
+# ============================================================
+# TailorMate - Git Ignore
+# ============================================================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Backups
+backups/
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.zip
+
+# Local database / dumps
+*.sqlite
+*.sqlite3
+*.db
+
+# Production/sample database dumps
+docker/tailormate_original.sql
+tailormate_enhanced.original.sql
+
+# Runtime / temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Generated / cache
+.cache/
+coverage/
+tmp/
