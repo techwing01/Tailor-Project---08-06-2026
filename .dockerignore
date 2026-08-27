@@ -1,0 +1,6 @@
+.git
+*.md
+docker-compose.yml
+Dockerfile
+migrate_passwords.php
+*.zip
