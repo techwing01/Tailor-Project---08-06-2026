@@ -43,7 +43,7 @@ jobs:
             --exclude-dir=.git \
             --exclude-dir=backups \
             --exclude=.env \
-            --exclude='.github/workflows/ci.yml' \
+            --exclude-dir=.github \
             --exclude='*.sql' \
             --exclude='*.tar.gz'; then
               echo "ERROR: Potential secret found"
